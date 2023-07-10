@@ -40,7 +40,7 @@ a{
 /* Header Area css */
 /* Header Top */
 header{
-    background-color: #d3aeb6;
+    background-color: #e4ccd2;
 }
 .header-top{
     display: flex;
@@ -149,14 +149,49 @@ header{
     margin-top: 20px;
 }
 
-/* Header Area css */
+/* Hero Area css */
+.hero-area{
+    max-width: 1140px;
+    margin: auto;
+    background-color: #2727270D;
+    padding: 50px 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.hero-item{
+    text-align: center;
+}
+.hero-item img{
+    width: 88px;
+    margin-bottom: 15px;
+}
 
-
-
-
-/* Header Area css */
-
-
+/* Hot Deal Area css */
+.hot-deal-area{
+    background-color: #e0cfd3;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.deal-title{
+    color: #272727;
+    font-size: 35px;
+    font-weight: 700;
+}
+.deal-title span{
+    color: #E55473;
+}
+.deal-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    max-width: 520px;
+    margin: 20px 0;
+}
 
 /* Header Area css */
 
