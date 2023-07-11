@@ -31,10 +31,11 @@ a{
     margin-bottom: 23px;
 }
 .section-text{
-    color: #272727;
-    font-size: 15px;
+    color: rgba(39, 39, 39, 0.60); 
+    font-size: 16px;
     font-weight: 400;
-    opacity: .7;
+    max-width: 535px;
+    margin: auto;
 }
 
 /* Header Area css */
@@ -83,16 +84,16 @@ header{
 }
 .banner-title{
     color: #272727;
-    font-size: 48px;
+    font-size: 60px;
     font-weight: 700;
-    max-width: 405px;
+    max-width: 515px;
 }
 .banner-text{
-    color: #272727;
+    color: rgba(39, 39, 39, 0.67); 
     font-size: 16px;
     font-weight: 400;
+    max-width: 530px;
     margin: 20px 0 28px 0;
-    opacity: .7;
 }
 .banner-image{
     max-width: 420px;
